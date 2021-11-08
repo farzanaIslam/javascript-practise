@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let userInput = prompt("enter your text:");
+      alert(userInput);
+      let CapitalLetter = userInput.slice(0, 1).toUpperCase();
+      let len = userInput.length;
+      let lowerLetter = userInput.slice(1, len).toLowerCase();
+      console.log(CapitalLetter.concat(lowerLetter));
+
+      //   console.log(lowerLetter);
+    </script>
+  </body>
+</html>
