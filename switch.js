@@ -23,5 +23,7 @@ switch(today)
         case 6:
         console.log("today is satday");
         break;
+        default:
+            console.log("not a valid input");
 
 }
