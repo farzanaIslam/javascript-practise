@@ -10,3 +10,5 @@ function sumOfArray(arr){
     console.log(sum);
 }
 sumOfArray(arr1);
+sumOfArray(arr2);
+sumOfArray(arr3);
