@@ -11,3 +11,9 @@ var arr=[]
 arr.push(add)
 console.log(arr[0](5,5))
 
+// A function can be stored in A object
+obj={
+    sum:add
+}
+console.log(obj.sum( 3,3))
+
