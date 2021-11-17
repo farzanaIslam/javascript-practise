@@ -1,6 +1,4 @@
-// var arr1=[1,2,3,4]
-// var arr2=[11,22,3,4]
-// var arr3=[15,21,3,4]
+
 // function sumOfArray(arr){
 //     sum=0;
 //     for(var i=0; i<arr.length;i++)
@@ -9,6 +7,10 @@
 //     }
 //     console.log(sum);
 // }
+// var arr1=[1,2,3,4]
+// var arr2=[11,22,3,4]
+// var arr3=[15,21,3,4]
+
 // sumOfArray(arr1);
 // sumOfArray(arr2);
 // sumOfArray(arr3);
