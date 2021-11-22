@@ -13,9 +13,9 @@ function sum(a,b)
 
 var result=sample(5,8,sum)
 console.log(result);
-sample(5,8,function(c,d)
+sample(5,8,function(x,y)
 {
-     console.log(c+d);
+     console.log(x+y);
 })
 sample(5,8,function(c,d)
 {
