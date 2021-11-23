@@ -25,4 +25,4 @@ forEach(arr,function(value,index,arr)
     arr[index]=value+5;
    
 })
-console.log(arr);
+ console.log(arr);
