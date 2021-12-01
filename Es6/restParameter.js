@@ -1,4 +1,4 @@
-// rest parameter er kaj holo array akare value receive kore
+// rest parameter er kaj holo array akare value receive kore akta parameter er maddhome
 function add (...number){
  var sum =0
  for (let i of number) {
