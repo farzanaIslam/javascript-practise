@@ -1,4 +1,4 @@
-var arr=[2,200,11,4,33,6,7,32,66,1,39,29,79]
+var arr=[2,200,11,4,33,6,7,32,66,39,29,79]
 // var sum=arr.reduce(function(pre,curr){
 //     return Math.max(pre,curr)
 // })
