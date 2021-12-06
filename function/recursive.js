@@ -20,10 +20,20 @@
 // console.log(print(5))
 
 
-function summation(n){
-    if(n==0){
-        return 0
+// function summation(n,m){
+//     if(n>m){
+//         return 0
+//     }
+//    return n+ summation(n+1,m)
+// }
+// console.log(summation(2,5))
+
+
+function gcd(a,b){
+    if(a%b==0)
+    {
+        return b
     }
-   return n+ summation(n-1)
+   return gcd(b,a%b)
 }
-console.log(summation(10))
+console.log(gcd(36,7))
