@@ -29,11 +29,20 @@
 // console.log(summation(2,5))
 
 
-function gcd(a,b){
-    if(a%b==0)
-    {
-        return b
+// function gcd(a,b){
+//     if(a%b==0)
+//     {
+//         return b
+//     }
+//    return gcd(b,a%b)
+// }
+// console.log(gcd(36,7))
+
+function pow(b,p){
+    if(p==0){
+        return 1
     }
-   return gcd(b,a%b)
+   return b*pow(b,p-1)
 }
-console.log(gcd(36,7))
+console.log(pow(3
+    ,4))
