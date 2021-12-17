@@ -38,11 +38,25 @@
 // }
 // console.log(gcd(36,7))
 
-function pow(b,p){
-    if(p==0){
-        return 1
+// function pow(b,p){
+//     if(p==0){
+//         return 1
+//     }
+//    return b*pow(b,p-1)
+// }
+// console.log(pow(3
+//     ,4))
+
+function suma(n){
+    console.log(n)
+    if(n==0){
+        return 0
     }
-   return b*pow(b,p-1)
+    var rem=n%10
+    console.log(rem)
+    var res=suma(n/10)
+    console.log(res)
+
+    return rem + res
 }
-console.log(pow(3
-    ,4))
+console.log(suma(12))
