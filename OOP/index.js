@@ -6,4 +6,12 @@ var rect={
     }
 }
 rect.height=150
-rect.draw()
+// rect.draw()
+var another={
+    height:20,
+    width:56,
+    print:rect.draw
+
+
+}
+another.print()
