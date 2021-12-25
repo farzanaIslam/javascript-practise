@@ -14,3 +14,17 @@ function unPure(){
 }
 var result=unPure(n)
 console.log(result)
+//============================ example of not a pure function with object===================
+ var value={
+     x:10,
+     y:5
+ }
+ function obj(value){
+     value.x=12;
+     value.y=34;
+    //  console.log(value)
+ }
+ console.log(value)
+ 
+ obj(value)
+ console.log(value)
